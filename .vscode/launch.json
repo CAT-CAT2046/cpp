@@ -4,19 +4,19 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "C/C++ 競プロ: Debug Session",
+            "name": "C/C++ 競プロ用: Debug Session",
             "type": "cppdbg",
             "request": "launch",
             "args": [],
             "stopAtEntry": false,
-            "log": true,
             "cwd": "${fileDirname}",
             "environment": [],
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "internalConsoleOptions": "openOnSessionStart",
             "MIMode": "gdb",
-            "preLaunchTask": "C/C++: g++-9 compile file",
+            "preLaunchTask": "Atcoder",
             "miDebuggerPath": "/usr/bin/gdb",
             "externalConsole": true
         }

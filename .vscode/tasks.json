@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++-9 compile file",
+            "label": "Atcoder",
             "command": "/usr/bin/g++-9",
             "args": [
                 "-std=gnu++17",
@@ -16,7 +16,6 @@
                 "-I/opt/ac-library/",
                 "${file}",
                 "-o",
-                "-g",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "problemMatcher": [

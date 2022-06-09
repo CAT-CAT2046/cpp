@@ -16,6 +16,7 @@
                 "-I/opt/ac-library/",
                 "${file}",
                 "-o",
+                "-g",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "problemMatcher": [

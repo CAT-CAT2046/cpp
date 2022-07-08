@@ -1,9 +1,0 @@
-BasedOnStyle: Google
-SpaceAfterCStyleCast: false
-SpaceAfterLogicalNot: false
-SpaceAfterTemplateKeyword: false
-SpaceBeforeCaseColon: false
-SpaceBeforeCpp11BracedList: false
-SpaceBeforeCtorInitializerColon: false
-
-
